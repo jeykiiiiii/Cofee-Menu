@@ -1,0 +1,328 @@
+.logo-container img {
+    height: 15vh;
+    width: auto;
+}
+
+body, html {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Arial', sans-serif;
+}
+
+.main-body {
+    height: 2000px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+
+.header-container {
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.coffe-title {
+    font-size: 1.1em;
+    color: white;
+    margin-top: 5%;
+}
+
+main .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    max-width: 100%;
+
+}
+
+main .content-container > div:first-child {
+    flex-grow: 1;
+    padding-right: 20px;
+}
+
+main .content-container > div:last-child {
+    flex-grow: 0;
+    flex-shrink: 0;
+
+}
+
+main h1, h2, h3, h4, h5, h6 {
+    padding-left: 5%;
+    font-size: 3em;
+    color: burlywood;
+    margin: 0;
+}
+
+main .content-container img {
+    width: auto;
+    height: auto;
+    max-width:90%;
+}
+
+@media (max-width: 768px) {
+    main .content-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main .content-container > div:first-child,
+    main .content-container > div:last-child {
+        width: 100%;
+    }
+
+    main .content-container img {
+        max-width: 80%;
+        margin-top: 20px;
+    }
+}
+
+.text-container p {
+    font-size: 1.1em;
+    color: white;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    margin-left: 30vh;
+    width: 150vh;
+}
+.contacts {
+    font-size: 1.1em;
+    color: white;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    margin-left: 30vh;
+    width: 150vh;
+}
+
+.contacts h1, h2, h3, h4, h5, h6 {
+    font-size: 20px;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: white;
+}
+
+.coffeecontainer li {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    height: 45vh;
+    width: 25%;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.coffeecontainer span {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(129, 84, 24);
+    
+}
+.coffeecontainer li button {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 10vh;
+}
+
+.coffeecontainer p {
+    text-align: center;
+    font-weight: bold;
+    
+}
+.coffeecontainer ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+.coffeecontainer li {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    height: 45vh;
+    width: 25%;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin: 10px;
+    text-align: center;
+}
+
+.coffeecontainer li img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: auto;
+    padding: 10%;
+}
+
+.coffeecontainer li p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    font-size: 0.8em;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .coffeecontainer li {
+        width: 45%;
+    }
+}
+.grain-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.grain-image {
+    width: 400px;
+    height: auto;
+    transform: rotate(-45deg);
+    transform-origin: left bottom;
+    opacity: 0.7;
+}
+
+.grain-image2 {
+    width: 400px;
+    height: auto;
+    transform: rotate(45deg);
+    transform-origin: left bottom;
+    opacity: 0.7;
+}
+.grain-image3 {
+    width: 400px;
+    height: auto;
+    transform: rotate(deg);
+    transform-origin: top right;
+    opacity:1;
+}
+.grain-image5 {
+    width: 400px;
+    height: auto;
+    transform: rotate(45deg);
+    transform-origin: right bottom;
+    opacity: 0.7;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    background-color: #f2f2f2;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content p,
+.modal-content input,
+.modal-content button {
+    margin-bottom: 10px;
+}

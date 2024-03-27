@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jake's Kopii</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+            <div class="header-container">
+                <div class="logo-container">
+                    <img src="Coffee List/Logo .png" alt="Jake's Kopii Logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="contacts.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    <main>
+        <br>
+        <h1 class="coffee-title"> SERVED HOT </h1>
+        <div class="coffeecontainer">
+            <ul>
+                <li alt="Coffee" onclick="orderPrompt('Coffee 1')">
+                    <div>
+                        <img src="Coffee List/Espresso.png" alt="Espresso" onclick="openOrderDialog('Espresso')">
+                        <p>Php 95.00</p>
+                            <div>
+                                <span>Espresso</span>
+                            </div>
+                            <button onclick="openOrderDialog('Espresso')">Buy</button>
+                    </div>
+                </li>
+                <li class="box" onclick="orderPrompt('Coffee 2')">
+                    <div>
+                        <img src="Coffee List/Double Espresso.png" alt="Double Espresso" onclick="openOrderDialog('Double Espresso')">
+                        <p>Php 105.00</p>
+                        <div>
+                            <span>Double Espresso</span>
+                        </div>
+                        <button onclick="openOrderDialog('Double Expresso')">Buy</button>
+                    </div>
+                </li>
+                <li class="box" onclick="orderPrompt('Coffee 3')">
+                    <div>
+                        <img src="Coffee List/Red Eye.png" alt="Red Eye" onclick="openOrderDialog('Red Eye')">
+                        <p>Php 100.00</p>
+                        <div>
+                            <span>Red Eye</span>
+                        </div>
+                        <button onclick="openOrderDialog('Red Eye')">Buy</button>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li class="box" onclick="orderPrompt('Coffee 4')">
+                    <div>
+                        <img src="Coffee List/Black Eye.png" alt="Black Eye" onclick="openOrderDialog('Black Eye')">
+                        <p>Php 115.00</p>
+                            <div>
+                                <span>Black Eye</span>
+                            </div>
+                            <button onclick="openOrderDialog('Black Eye')">Buy</button>
+                    </div>
+                </li>
+                <li class="box" onclick="orderPrompt('Coffee 5')">
+                    <div>
+                        <img src="Coffee List/Americano.png" alt="Americano" onclick="openOrderDialog('Americano')">
+                        <p>Php 100.00</p>
+                        <div>
+                            <span>Americano</span>
+                        </div>
+                        <button onclick="openOrderDialog('Americano')">Buy</button>
+                    </div>
+                </li>
+                <li class="box" onclick="orderPrompt('Coffee 6')">
+                    <div>
+                        <img src="Coffee List/Long Black.png" alt="Long Black" onclick="openOrderDialog('Long Black')">
+                        <p>Php 115.00</p>
+                        <div>
+                            <span>Long Black</span>
+                        </div>
+                        <button onclick="openOrderDialog('Long Black')">Buy</button>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li class="box" onclick="orderPrompt('Coffee 7')">
+                    <div>
+                        <img src="Coffee List/Macchiato.png" alt="Macchiato" onclick="openOrderDialog('Macchiato')">
+                        <p>Php 115.00</p>
+                            <div>
+                                <span>Macchiato</span>
+                            </div>
+                            <button onclick="openOrderDialog('Macchiato')">Buy</button>
+                    </div>
+                </li>
+                <li class="box" onclick="orderPrompt('Coffee 8')">
+                    <div>
+                        <img src="Coffee List/Long Macchiato.png" alt="Long Macchiato" onclick="openOrderDialog('Long Macchiato')">
+                        <p>Php 125.00</p>
+                        <div>
+                            <span>Long Macchiato</span>
+                        </div>
+                        <button onclick="openOrderDialog('Long Macchiato')">Buy</button>
+                    </div>
+                </li>
+                <li class="box" onclick="orderPrompt('Coffee 9')">
+                    <div>
+                        <img src="Coffee List/Cortado.png" alt="Cortado" onclick="openOrderDialog('Cortado')">
+                        <p>Php 115.00</p>
+                        <div>
+                            <span>Cortado</span>
+                        </div>
+                        <button onclick="openOrderDialog('Cortado')">Buy</button>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li alt="Coffee" onclick="orderPrompt('Coffee 10')">
+                    <div>
+                        <img src="Coffee List/Breve.png" alt="Breve" onclick="openOrderDialog('Breve')">
+                        <p>Php 125.00</p>
+                            <div>
+                                <span>Breve</span>
+                            </div>
+                            <button onclick="openOrderDialog('Breve')">Buy</button>
+                    </div>
+                </li>
+                <li class="box" onclick="orderPrompt('Coffee 11')">
+                    <div>
+                        <img src="Coffee List/Cappuccino.png" alt="Cappuccino" onclick="openOrderDialog('Cappuccino')">
+                        <p>Php 125.00</p>
+                        <div>
+                            <span>Cappuccino</span>
+                        </div>
+                        <button onclick="openOrderDialog('Cappuccino')">Buy</button>
+                    </div>
+                </li>
+                <li class="box" onclick="orderPrompt('Coffee 12')">
+                    <div>
+                        <img src="Coffee List/Flat White.png" alt="Flat White" onclick="openOrderDialog('Flat White')">
+                        <p>Php 125.00</p>
+                        <div>
+                            <span>Flat White</span>
+                        </div>
+                        <button onclick="openOrderDialog('Flat White')">Buy</button>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li class="box" onclick="orderPrompt('Coffee 13')">
+                    <div>
+                        <img src="Coffee List/Cafe Latte.png" alt="Cafe Latte" onclick="openOrderDialog('Cafe Latte')">
+                        <p>Php 115.00</p>
+                            <div>
+                                <span>Cafe Latte</span>
+                            </div>
+                            <button onclick="openOrderDialog('Cafe Latte')">Buy</button>
+                    </div>
+                </li>
+                <li class="box" onclick="orderPrompt('Coffee 14')">
+                    <div>
+                        <img src="Coffee List/Mocha.png" alt="Mocha" onclick="openOrderDialog('Mocha')">
+                        <p>Php 120.00</p>
+                        <div>
+                            <span>Mocha</span>
+                        </div>
+                        <button onclick="openOrderDialog('Mocha')">Buy</button>
+                    </div>
+                </li>
+                <li class="box" onclick="orderPrompt('Coffee 15')">
+                    <div>
+                        <img src="Coffee List/Cremma.png" alt="Cremma" onclick="openOrderDialog('Cremma')">
+                        <p>Php 105.00</p>
+                        <div>
+                            <span>Cremma</span>
+                        </div>
+                        <button onclick="openOrderDialog('Cremma')">Buy</button>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li class="box" onclick="orderPrompt('Coffee 16')">
+                    <div>
+                        <img src="Coffee List/Affogato.png" alt="Affogato" onclick="openOrderDialog('Affogato')">
+                        <p>Php 105.00</p>
+                            <div>
+                                <span>Affogato</span>
+                            </div>
+                            <button onclick="openOrderDialog('Affogato')">Buy</button>
+                    </div>
+                </li>
+                <li class="box" onclick="orderPrompt('Coffee 17')">
+                    <div>
+                        <img src="Coffee List/Cafe au lait.png" alt="Cafe au lait" onclick="openOrderDialog('Cafe au lait')">
+                        <p>Php 125.00</p>
+                        <div>
+                            <span>Cafe au lait</span>
+                        </div>
+                        <button onclick="openOrderDialog('Cafe au lait')">Buy</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <h1 class="coffee-title"> SERVED COLD </h1>
+        <div class="coffeecontainer">
+            <ul>
+                <li alt="Coffee" onclick="orderPrompt('Coffee 18')">
+                    <div>
+                        <img src="Coffee List/Espresso.png" alt="Espresso" onclick="openOrderDialog('Iced Espresso')">
+                        <p>Php 95.00</p>
+                            <div>
+                                <span class="coffeename">Iced Espresso</span>
+                            </div>
+                        <button onclick="openOrderDialog('Iced Espresso')">Buy</button>
+                    </div>
+                </li>
+                <li class="box" onclick="orderPrompt('Cofee 19')">
+                    <div>
+                        <img src="Coffee List/Iced Coffee.png" alt="Iced Coffee" onclick="openOrderDialog('Iced COffee')">
+                        <p>Php 105.00</p>
+                        <div>
+                            <span>Iced Coffee</span>
+                        </div>
+                        <button onclick="openOrderDialog('Iced Coffee')">Buy</button>
+                    </div>
+                </li>
+                <li class="box" onclick="orderPrompt('Cofee 20')">
+                    <div>
+                        <img src="Coffee List/Flat White.png" alt="Flat White" onclick="openOrderDialog('Iced Flat White')">
+                        <p>Php 105.00</p>
+                        <div>
+                            <span>Iced Flat White</span>
+                        </div>
+                        <button onclick="openOrderDialog('Iced Flat White')">Buy</button>
+                    </div>
+                </li>
+            </div>
+        <div id="orderDialog" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeOrderDialog()">&times;</span>
+                <p id="coffeeName"></p>
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="text" id="location" placeholder="Your Location">
+                <input type="number" id="quantity" placeholder="Enter quantity">
+                <p id="totalValue"></p>
+                <button onclick="placeOrder()">Order</button>
+            </div>
+        </div>
+    </main>
+    <script src="javascript.js"></script>
+</body>
+</html>
